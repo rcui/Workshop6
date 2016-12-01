@@ -7,3 +7,12 @@ is where you will develop the server.
 
 Please see the workshop text for more information.
 
+Answers to workshop questions:
+a.
+CommentThread: /feeditem/:feeditemid/commentthread
+Comment: /feeditem/:feeditemid/commentthread/:commentid
+Comment LikeList: /feeditem/:feeditemid/commentthread/:commentid/likelist
+b.
+postComment: POST
+likeComment: PUT
+unlikeComment: PUT
